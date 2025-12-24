@@ -45,8 +45,8 @@ input_reshaped = input_data_num.reshape(1, -1)
 prediction = model.predict(input_reshaped)
 
 if (prediction[0] == 'R'):
-  print("It's a rock")
+    print("It's a rock")
 elif (prediction[0] == 'M'):
-  print("It's a Mine")
+    print("It's a Mine")
 else:
-  print("Error in prediction")
+    print("Error in prediction")
