@@ -79,7 +79,6 @@ test_accuracy = accuracy_score(X_test_prediction,Y_test)
 
 print(f'Accuracy score of training : {training_accuracy}\n Accuracy score of test : {test_accuracy}')
 
-
 # Testing 
 
 X_input = X_test[0]
